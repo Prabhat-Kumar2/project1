@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Python Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Build / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Large Generated Data Files
+# =========================
+
+# Embeddings
+data/embeddings.npy
+
+# Processed datasets
+data/processed_news.csv
+
+# =========================
+# Other Large Data Files
+# =========================
+*.pkl
+*.pickle
+*.joblib
+
+# =========================
+# ML Models
+# =========================
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Local Databases
+# =========================
+*.db
+*.sqlite3

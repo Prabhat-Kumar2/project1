@@ -1,0 +1,67 @@
+{
+  "corpus_articles": 53527,
+  "embedding_backend": "cache",
+  "embedding_retrieval": {
+    "precision@1": 0.282,
+    "precision@5": 0.2368,
+    "precision@10": 0.208,
+    "random_baseline": 0.0164,
+    "sampled_articles": 500
+  },
+  "recommendation_quality": {
+    "category_consistency": 0.3237,
+    "consistency_baseline": 0.0948,
+    "diversity@N": 0.581,
+    "catalogue_coverage": 0.0471,
+    "top_n": 10,
+    "sampled_users": 300
+  },
+  "sentiment": {
+    "available": true,
+    "method": "supervised (TF-IDF + Logistic Regression, held-out test)",
+    "accuracy": 0.8227,
+    "samples": 11672,
+    "per_class": {
+      "Positive": {
+        "precision": 0.579,
+        "recall": 0.7506,
+        "f1": 0.6538,
+        "support": 1259
+      },
+      "Neutral": {
+        "precision": 0.9265,
+        "recall": 0.8393,
+        "f1": 0.8807,
+        "support": 8586
+      },
+      "Negative": {
+        "precision": 0.6415,
+        "recall": 0.7942,
+        "f1": 0.7097,
+        "support": 1827
+      }
+    },
+    "labels": [
+      "Positive",
+      "Neutral",
+      "Negative"
+    ],
+    "confusion_matrix": [
+      [
+        945,
+        262,
+        52
+      ],
+      [
+        621,
+        7206,
+        759
+      ],
+      [
+        66,
+        310,
+        1451
+      ]
+    ]
+  }
+}
